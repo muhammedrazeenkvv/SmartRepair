@@ -1,0 +1,320 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0b0b3b;
+}
+
+
+.dots {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.dot {
+  width: 20px;
+  height: 9px;
+  border-radius: 10px;
+}
+
+.yellow {
+  background-color: #f7c53a;
+  margin-left: 8px;
+}
+
+.blue {
+  width: 9px;
+  background-color: skyblue;
+
+}
+
+.purple {
+  background-color: #7b3aed;
+  margin-left: 8px;
+}
+
+.pink {
+  background-color: #f13bb7;
+  width: 15px;
+}
+
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-weight: 500;
+}
+
+.nav-links li {
+  color: #0b0b3b;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #7b3aed;
+  text-decoration: underline;
+}
+
+
+.nav-links .active {
+  color: #7b3aed;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login {
+  border: none;
+  background: none;
+  color: #0b0b3b;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.get-started {
+  background-color: #f3f3f5;
+  color: #0b0b3b;
+  font-weight: 500;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+  background-color: #e5e5ea;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 80px 100px;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.hero-content {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #0b0b3b;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #0b0b3b;
+  opacity: 0.8;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  background-color: #7b3aed;
+  color: #fff;
+  padding: 12px 35px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #5b25c8;
+}
+
+
+.hero-image {
+  flex: 1;
+  position: relative;
+  display: flex;
+
+}
+
+.hero-image img {
+  width: 70%;
+  height: 80%;
+  margin-left: 35%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.quote-box {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  background-color: #0b0b3b;
+  color: #fff;
+  padding: 20px 30px;
+  max-width: 320px;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.quote-box .quote-mark {
+  font-size: 100px;
+  font-style: italic;
+  color: #f7c53a;
+  font-weight: bold;
+  line-height: 0;
+  margin-right: px;
+  vertical-align: top;
+}
+
+.quote-box h5 {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #f7c53a;
+}
+
+/* service section */
+.servise {
+  font-family: "Poppins", sans-serif;
+}
+
+.servise h1 {
+  font-weight: bold;
+}
+
+.servise p {
+  margin-bottom: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+
+}
+
+.card {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  padding: 15px;
+  border: none;
+
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 40px
+}
+
+.card h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.card p {
+  font-size: small;
+}
+
+.project {
+  font-family: "Poppins", sans-serif;
+  margin-top: 100px;
+}
+
+.project h1 {
+  font-weight: bold;
+}
+
+.project p {
+  margin-bottom: 10px;
+}
+
+.project-card {
+  margin: 10px;
+  padding: 15px;
+  border: none;
+}
+
+.card-container2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+
+
+}
+
+.project-card h4{
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.project-card p{
+  font-size: small;
+  text-align: center;
+}
+
+.project-card img{
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.btn2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.loadmore {
+  background-color: #7b3aed;
+  font-size: small;
+  color: white;
+  padding: 8px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loadmore:hover {
+  background-color: #6006fa;
+}
+
+
+

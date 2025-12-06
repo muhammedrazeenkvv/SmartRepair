@@ -1,0 +1,14 @@
+body{
+    background-color: peachpuff;
+}
+
+.container{
+    background-color: white;
+
+}
+
+.firstNmae{
+            width: 50%; 
+            padding: 6px; 
+            margin-bottom: 15px;
+        }
